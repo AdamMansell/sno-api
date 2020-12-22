@@ -1,0 +1,52 @@
+<%= form_with(model: resort, local: true) do |form| %>
+  <% if resort.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(resort.errors.count, "error") %> prohibited this resort from being saved:</h2>
+
+      <ul>
+        <% resort.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :snow_fall %>
+    <%= form.text_field :snow_fall %>
+  </div>
+
+  <div class="field">
+    <%= form.label :main_parking %>
+    <%= form.text_field :main_parking %>
+  </div>
+
+  <div class="field">
+    <%= form.label :herm_parking %>
+    <%= form.text_field :herm_parking %>
+  </div>
+
+  <div class="field">
+    <%= form.label :lift_1 %>
+    <%= form.text_field :lift_1 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :lift_2 %>
+    <%= form.text_field :lift_2 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :lift_3 %>
+    <%= form.text_field :lift_3 %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

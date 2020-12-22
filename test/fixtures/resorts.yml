@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  snow_fall: MyString
+  main_parking: MyString
+  herm_parking: MyString
+  lift_1: MyString
+  lift_2: MyString
+  lift_3: MyString
+
+two:
+  name: MyString
+  snow_fall: MyString
+  main_parking: MyString
+  herm_parking: MyString
+  lift_1: MyString
+  lift_2: MyString
+  lift_3: MyString

@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @resort.name %>
+</p>
+
+<p>
+  <strong>Snow fall:</strong>
+  <%= @resort.snow_fall %>
+</p>
+
+<p>
+  <strong>Main parking:</strong>
+  <%= @resort.main_parking %>
+</p>
+
+<p>
+  <strong>Herm parking:</strong>
+  <%= @resort.herm_parking %>
+</p>
+
+<p>
+  <strong>Lift 1:</strong>
+  <%= @resort.lift_1 %>
+</p>
+
+<p>
+  <strong>Lift 2:</strong>
+  <%= @resort.lift_2 %>
+</p>
+
+<p>
+  <strong>Lift 3:</strong>
+  <%= @resort.lift_3 %>
+</p>
+
+<%= link_to 'Edit', edit_resort_path(@resort) %> |
+<%= link_to 'Back', resorts_path %>
