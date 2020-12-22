@@ -6,6 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+Resort.detroy_all
+
 data = [
   { name: 'Meadows', snow_fall: "3'", main_parking: "At Capacity", herm_parking: "35%", lift_1: 'Open', lift_2: 'Open', lift_3: 'Closed' },
   { name: 'Timberline', snow_fall: "4'", main_parking: "75%", herm_parking: "20%", lift_1: 'Open', lift_2: 'Closed', lift_3: 'Closed' },
